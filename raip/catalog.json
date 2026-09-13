@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "name": "RAIP",
+  "groups": [
+    {
+      "id": "livesplit",
+      "name": "Custom LiveSplit Plugins",
+      "description": "Timing, subsplits and layout components. Install and update each one separately."
+    }
+  ],
+  "packages": [
+    {
+      "id": "scu",
+      "name": "SCU",
+      "description": "Capture, replay and record your speedruns.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "1.0.297",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/scu-SpeedrunCaptureUtility.exe",
+        "fileName": "SpeedrunCaptureUtility.exe",
+        "sha256": "9B04AA718BBD49E25974DEE5F13D7707B38A37A99736C3484C3527F513685B73",
+        "sizeBytes": 36614635,
+        "notes": "v297: the Full toolbar distributes available width across its buttons. Retains the preview sizing and export-close fixes from v295 and v296.",
+        "publishedAt": "2026-09-13T18:05:11.2940962+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAACaPSURBVHherXsHeJvlufanaQ0PLVt7T9vy3iN2nD0hAeLsnZDpBJMdErJ3QjZQNoVSRqCnUGgJpS0tpT1w\u002BEtPTylhtRSSkJ3Ylqxh3f6v5/0kWQmcnnNd/6/ruq/3\u002ByRZ0nM/\u002B3lfc9z/8MjL02D4iNGJ1sHDE61tPFpahyUGtQ5DU8sQNA1qQ9OgIWhsbsvAEDQ0tqG\u002BsRW19YNQXdvMUFM7CLV1yfuaJlRVN6GSUNWEiuomVNU0s/uKqgZUVDagrLIB5bRW1KOsvBYlZTVJ1CJYVoNgaQ1KSmtRXFLNUBSsQqCogsHjK4FQLJ15qzz/68fyZSvx61\u002B9g1df/QU\u002B/PC/Ei\u002B88FrimWd/knjyqVOJJ558MfHIo8/joYeexcmTz\u002BD4iadx9PiTOHzkCRw5\u002BgQeOPIYDh56FPv2/wC79pzEjl0nsX3nCezYeQLbdhzD1m1HGbZsO4LNWw5j0\u002BZD2LiJcBAbNh3E\u002Bo37sXb9PqxZtxdr1u3B6nV7cO/qXbjn3p1Yee9OdK7ahZWdO7Ciczs6Vm7Hso4tWNqxBUuW38\u002BweNlmLFuxDbNnr8C8BZ0oKam7eqt8/\u002B3D4w288rOfvR3/9z9\u002BlPjFL97BD595BSce/CF27zmOHTuP4P4tB7Fp8z5s2LgH69bvwao123Hv6m3oXLUN99zLY2XnVizv2IwlyzZi0ZINWLhoHe5eTFiPBXevZZi3cDXm370a8xasxpz5qzB73r2YOecezJrTiVlzO9n19FkrMG1GB6bO6GDrFML05WifthyTpixF\u002B1TCcrRPXYZJU5aw5\u002B5sX4y72hdj9NiZGDV2BsbfPgczZ3fi9gnzoMxWv3KrvDc9jGYn/vDeh7H3fv9h4smnXsJjjz\u002BPWXOWYsId0\u002BEvrESwtB6lZQ0oLW9EWUUjSsobUVLWgOKSOvYaobgktdahKFiLwuKaNAJF1Wn4C6vhK6xk8AYqGHyBSnj9FTwy7j3\u002Bcrh9ZXB7S5Ogax4uTxlc3lI43CVwekpgdxXDZPUhUFiDwmA9WtsmonXIREbEpMlLIJYqz98qN3soc9Sb33jjV32vvvY2nnrqJRw9/hRGjr4DFrsfgeJqNDSN4NE4AvWNw1FbP5RH3RBU17ahunYIqmraUFUzGJXVhFZUVLWgoroFwdI6\u002BJlA5QPwl8HrL4PHVwZPcnX7SLgStnp8pQiWNSJY2oCiYD1DYbAWRUEilie6uKQBRSX1CBTXIlBEqIE/CbMtAJ3eCae7FE0t49HQPBbNrbdj5JiZEElkS24SXigSTSqvbsbrb/wGJx96Fg8\u002B/AxKyutQVFKL5tbRaG4ZjYamUWhoHom6xuGoaxiBuoZhqKkbipo0ASR8ioBWVFa1oqy8CXqDFQKhCAqF9H8FuUICmUIMgYCDSp3PBC4moUuIhFoUMgJ4Eui6sLguLXwhEVFcC39hDXyBangD1TCYPNAVOFDfNAa1DaMxZEQ78tRmcJxggABlru7in/70MQ4cegw7dx9DVe0gZtqDWseiqWUUmgaNTqOxeSQampJoHIG6\u002BmGorScyhqCKUDuEaVQslkIoEkMkEiAnT4qz4e2hr3ruD/PYEv6qZ1v4Hz33h//esyn8Zc994S97NoS/6Fkb/rxndfh0121hS0DK/jZLng2HqxguTwkTlpBJQCYRZPIpa/AV8gTQarYXIl/vRGXtcFTXjUTb8MnkCheZ8AKBwCJXavDzX/wWe/Y9jAl3zGR\u002B2do2nhEwqHUMjxYig7eGpkGjkkSMYBaRIoBM3mb3QSKRwhcw4J/X9kf\u002Bz7k5sQ/PzYu/G5nZ825kRhKp62k9v0tjas/vIlN63um9q\u002Bf9yJSe/7g0Pfqf12ZFTLZscBzHyDQYHbDZA0zTvOAp10gSUFwHP7MGIoC3Al\u002BgBp5AFQwWL5yeclTVjUBz60QIJXL6XI7Lzsvv7\u002BkJdx87/jRW3LMZTncQjYNGoaVtHAYNHiCgsWUUqusGo6ZuMKprWlDbMIwnoIEsYAh8gQooc3IhkYpw5OkRePK1iXg1Or7n5XBL6FSoNXQo5AwTDoYcbGUIJ1f2vCt8oMce3t/jCD8UCoZ\u002BHKoPPR\u002BuD73yl5GJl/80EhNm2cAJOAiFIkilcjhcQQQKeZdII4MAigM8CTXw\u002BKvg9lVBW\u002BBAScVglFcNQU3jWIgkihiXq9L3//KXf8CefQ9i5uzlKKtoRmvbWLS0jkXLYAocY1iwU2n0TBMpGEw2pnkigNxFJs9GdZ0Vc5dW4t0r06O/C7WHDoSs4QdCrvDBHhKQFz4FEvqBsIuRQK8dIgJCjvD\u002BkD28r8ce3ttjD\u002B/qtoZ/Hh4eejM8InT60uju33w1unv\u002BKl\u002Bcvl\u002BhzIPR7EEgqXlm\u002BmzlSSDhyQW8ft4VvIEqWB3FKCodhIqaYbA4SiDOyganyNH1n/7le9i970GUljewoMcEbxnDzJ3uff5ScJwQ//HBb/s\u002BOrcw/ODzgxP0IxzuYhQHqyGRZEGtlWHrgWGxr6Pruk\u002BE/LyQpOEUQo7w4Yij52jU2X0s5u4\u002BHnN3H4u6GI5G3N3Ho57uYxFPz5GIK0QE7OtxhPf0OMI7u\u002By9O7rsvQdueHsf7SoN/\u002Bhsbe\u002BBpyoiFCRFYgnsrpKk8KlMkDR/RgBPArkAg78K\u002BQY3yqqGwGwvoTgATqZU97/19h\u002Bwd//DKCmnwEf\u002BnhQ\u002BCY\u002B/FAKBAL87s6Dv8a7C3o5XLQmhiINIJIFKXcBM86/nVvS\u002BGbo9RNomM2YIOcIPRFw9R6Ku7of6PF3628VQzRMyqOcLoZ4rhIqQ8Zxxkxgn467uQxFHz\u002B5uR\u002B\u002BuLkfvji5H79Yb1sjm65bI7uuu3h9cKY0892F9lL6XFGG1FaXN319UxwvPgmAGCb4kAUYPyquGwmQLQiRRgpPK8vp/8ebvsXvvgwiWNaB50IDgFAuamkfBSxYgEOCdT6f2PR4qCh8/G4gePFURF4k4lFeb8N6fF0Qe6arofaDHF97b4wjvY6bsCB3odfaMPqFC6UY5yrbIIFJxEGo4CNUcBOqBa7YmIR7OoWydHEXLZNh83hzZGbKFt3fberdct0U2X7My3H/NFtl70RP58fsNUYGQjwtmKn5Svs\u002BEJoGrGRgB/ip4kwSQBRhtxTwBElle/\u002Btv/BY7d59kFV46wjePRGPzCEYAFSVEwG8/nd73aKgw/HC4MPTUtfLI2h2V0R2PNMReCQ0L7e92h/d0O8N7epzhfT3O0LzT\u002BsSwh1XQNUogcnEQeThwZDUSGcRZ8lugYBAIheD0HIQ2DpyBQ9OxbAx\u002BLBczT\u002Buw5Ya1d9M1S2TjVUtkw1VzdOMVS/T4tcLezufMUa1JjKwsOQwmJxPSlzT3lOApIty\u002BSuiYCwyFwVoEoUTBE/Dqa7/Gzl1EQAMaB5HwI3gSklWf2xNkBPzu01l9j4QKw8fCnvCxsDf0QWRyz696x4d2dTt6t3fZeslf7//W1rvyz8beqk4lJNUcONK2SASBSAyxRA5FTj5UOgvUOivU\u002BQQbWzX5NihzdZBI5SzlcZwAoiYO4hoOFeuUWPjHgr6Nl83RDVfM0fWEq\u002BbIfVctkQe7A73\u002BYTLItQIoslVwe8pvEt7tq4DbX5m85gkorWiDwVIIoVgBTpyV0//KT05j2/ajLJpTaqtvGp4WnlYqTxkBZ2b1PdRTyKI3\u002BffekD28q8ce3tFt793WZendet3aO\u002BPnul6umQPnTmYMgQAypQY5KiPUOhsLQjZHMQteN8FdApsrCIPZB5XWArFUAYFAyD5D4OcgHsFh9Rf66PrLJLwluu6KObr2qim67qopel\u002B3OVTXqYBAzMFgdMHjq2TCpuHlCXAxAlwIVrTCYA5AIJbzBLz40pvYvPUwikvrUU8ENA5HPVV5DVT2DoMrZQFnZved7CkMHwg5w3tDDib8zi5beFu3vff\u002BG5bIwr/kR4XDB1Il03iuHlq9AyZrAG4/aaMCvsKqdOTmAxc1ShS5SWsVsLlKYLD4kKsxQyrPSxLJgWvksO2sidyAEbDmiim69qo5uuaSKTbq4RzoG8SQKfMYAS5vSviKNBE8AW4Ul7fcTMDzL/4cm\u002B5/AEUldUxgIoBWVuSkCeDw\u002BzOL\u002Bo52FfbuDjnDO7od4e3d9vCWblvv5i5r76Yb1siuLk/v2zeGh5XZIlb/y7O10Ju9cHnLkzU6dYLJhqWQ7whTgYut7LkUEVWMCL3Zw1yEshDFEOk4Dh0fFETvu2aOrLlsia4hIi6bo/ecNcaHHs5JCER8jcAE9lYMEJEkJd/gQbBiMPTmADiRDJxImtP/zHM/w32bDqAwWIO6xgECqLylIsjpLmYEvHdmSd\u002BBrsLebV323s1d9t77bth7N96wRdbfsPauu26OrLtuiay9aokcvOIIW8uloAit0hjSlZre6ICuwIJ8BitMFs/NBDBiePB1PF/Gmm1F0OgdPAlyDublksTkNwzxPTe84VVXzNHVVyzR1ZfN0Rl/0CTsy0QQZclgd5UyApgFJK2ALICyQHE5T0DSArL7n37mp2wCQ9qh5qauYShPQP1Q1NQPyyBgWd\u002Bu6/7IfV223nXXrZF112yRtddskTXXLJHV1yyRVVd53HvZFJnzd03cMEjMIjvPfjlLV5nVpEgkZiRQT09aJ/AWMAAWvPyVsDgKWeAkyxI4OIzZWtB3IlzS03nZFCXce8kYveeCMTbhlKaPiBdLslhsIRKc3nLeGpgLEAGtKDD5IUhZwBNPvYLV63YzE0y3uAx0PYxVfETA859M7Nt81RVZe80aWX3FGln4sSE68Q1NdOJbmugEwtvq6IRfqaPjn1fHfHuzkOUVsEBmthdDIpWhwKDFmS\u002Bei/z6yzGRl79siExYqe1LEWE0ueD2lLH8PVDJJSN5MoJb7EXIztUxIt1jFbjrFwbs7nKHOy4ZYisvGWOdl0zReR9p4857\u002Be\u002BlgOokAjzlDOQCLAaUtTACki6Q3f/oEy\u002Bhc80Olj9TwlNbSwQQHK4iRsDc97R9cz8piMw9o\u002B\u002Bd\u002B4khUrdP2Sdo4CAYykEwnINgNAfBGA6cfUDLEqmS1eBSaRZMFi2\u002BiR7vPh0eGvq33oae/W\u002BWRBZt8kbbbitgRChzNLA5izLyNy94igASxmQrhFSmgEDPwT0jGy/E6rqXXzLGVlwyMSw9b4jd8UFegn6vWMK7wvcT4OMJIBd45PGX0LlqBxtDMc0z4QfgdBfxAk3nwE3hwE1NoiYZnTPMOp0BpEo\u002B/alNcLjLIM3KgsGqwAfx27qOht3hQ2FX\u002BIehitCb4SE9\u002B1\u002BviNW2aftkCt5FLDY/6/ZSvuvxp6I4abMMOr0D4iwZrCUKHD1XEVpx2RpZftEQW37RGFtx0RRb9KmhT1HNQSARsuwzQEAFS4NEQL6RCMgCJ5Io\u002B08\u002B9BxWdm6Hv5AsYOjN052awSyCi8Sy7whJEAolTFCGbA3kSSjz9NBbvLA6iphfkwUYrEq8H5/QdajHFT7Q7QqzWr/b3vtoqCL0\u002B75xXbVDdQm7X8EaLQKv/VQ0503Z4SmDzRlEdp4OAjMH9SNiPNUX7L77W0NsyQVjbNkFY2zlFXMk8BshhCqOFV1kBXZ3GbMgIqCwpBn5zAWywAklyv4TJ5/F8pX3w89cYIAAEp7GW2WVg1gcoJzMIMuDRJbLIFdqWZ43WH0wWvwwWgMwWgIw2fws53sLq\u002BAryiTgzq593a4wCb6ddXqO3vuv2yKbrlsiv4mP7/6ge1KPUMxBnp0kWCROmj8vPFmAw10KtdbMrC/XJMLxPl/33ReMscXfmmJLLxhjK66aIrmHhBBkc5DKc2G2FTIrdHjL2ZwwQASkLEAoUfQfPv40lq3YDJ\u002B/EtVM820DQ82qFpRXDmJFksVRBIPZy4KL0eJjxQqBfJzl92RuZ9E8kJz\u002BJtMb7wJK/D7e3kXt7VZKpTeskU3Xrb33XbdGNly1RtZdtbDM8sdIe/f7sTu7xVIhiAwKehqdiQnPm3MZLM5iyLPV0JqkOB0f0j37m4L43d8aY4suGGKLrxiiuXsFaQIKzF6eADe5jxOFpYOgM3r5GEAEHDryNJYs28SqsMpqXvM0zS2vamHapyEJrTSl5as3vpjJrOZoTnfTdCbIDynSBCQt4N345K5NN2yR\u002B27YIxuuWSPrr5Hg1sjqq5TPeay5bIuuuGSOvnl9THjuVm8ftd5UA8gUOcwKKL3Z3CXI0xghlHNo3qFPPBNuC807b4gv\u002BFYfX3DBECcXEGl4AnRGN3MBIoCmQjQUIQvg06BE2b/v4OOMAMrVFVWtbKxNwjNUtqCsvBml5c0oKW9KjqPrmUWw4WTyntbCkoHJDM3rMsdUKQLeiU/uWnfNTALzNcMVS/Tey\u002BZo51VLdOVlY7TjsinacdkcXXbRFFt50RY7crE8\u002BsjFyt6WZblsEqTWmWF1BhkJ\u002BUY3I8ZTl5N4MFwdmndeH593jifB/1shxFoOUkUetAZ3Og6QuwaCvAukCdi99wdYtGRjkgAy\u002B8FM8NIK0v4glJY3obSsia3FpQ0DwiWRqX02lUlOZ3hLqYW/mCdAb1Xi7Vh796orlmjnFVN05WUT03THJXN0\u002BWVjdOklY3TRRUNs8UUjjws8CfPOGvp8y6QsOCqytTDbi1iZbLIVQUiFVlVO4kSkMjT3vCE\u002Blwi4YIh73xFCxAjIhVbvgtVJTVcpI8Bf3ASdIekCIqmyf8fuB7Fw8Qa4vGUorWhmPk8rgbQeLG9kuzNqTQGb1eep8pFHa54WGq2BCVxIFpCazTHha1nw44uaahYDiIA3Y3d0rbhsZppedskUW3LRxAS9\u002B5IxtuCCITb/W2Ns/nljfMG3ptiC88bY6H/XJLxPyJAzUsCCoiInSYAzyAojkUgEd1Vu4mikMjTrrD4\u002B\u002B5w\u002BTq7g/o2IJ0CeC02BE1ZHkJGmyXfAV9TAEyBMErBt50ksWLyebS\u002BlBE\u002BZPPk9jcmzc1Sw2Wyw2Z2w2Wk87WBkiMUSmCyu5Fy\u002Bjmn7O4PJQHXaAl6PTexaetEcW3LJHF100RRbcMHIhJ77rSE257whPuu8Pj7rnD5\u002B18cFGPw7FVz7ZRCM58D5KCsIkJ2rZ1Gd3ICCslAkgrM6J3Gotzw0/RtD3/Rv9H1Egv1XQgi1HMtU6nwnLI5iWF1BaHR2\u002BIoaoTV4Bixgy44TmLdoLezuYJKAJl740kZGAG1MEPufffZ538XLvZELlyKRby9FItsPPJNQa02QK3L4yJ8yeWb2dcwC2GgqTYAC/xYb37XgW3Ns3rem2LxvjbE55wzxGWcN8eln6ccb\u002Bqae1cfH/6cWNa/lQLiSAzd4oNiSKbVspkAWQALRygioUSZ2hQvD077W9834pqBv5llD3PIWT4BYlsMTYC9mpKl0dniKGhgB6RiwedtxzJ2/BnZ3MROetE9mT/ty5POsFOY4vPPuR4mTj7yKB46fwgMnXsJtkzsgV6ogEmexGiA1i0\u002BRkCbAX5Um4FRsXDcJP/u8MT7znCE\u002B7ayhjzCFhD9viE\u002B/qI9y0zhw8waKLYFQDFlOAXLUZhjMflgcpP0gTPZi5gL2akVia7c3PPWf\u002BsT0rw1908/q\u002ByynhfyMMZMARxDqDAtIE7DhvkOYObeT7awGy5pQUkamTxZAO78N7HmKtq/9/A849oOf4oETp3Dw\u002BEsYN3kly8U8AV7WS6S6utTWVGoSI5FKUcAIuK1r\u002BjljfNo5Q3zyN/q\u002ByV8b\u002BtrP6vumXzVF7LuyIFnEzw45MS84zRDlOXqodDYUmLxM8zyCyJIpYXHl4sPehT3397jDU7/WJyZ/pU9M\u002B0Yflz0shEBFLkAEOFhLTX/DCChuHAiCVAes23gQM\u002BbcA5uzmGm8uLQxCX731c6aIQGefu5NHD75MvYdeQH7j72IMZNWQK5UM9\u002BUyXNYzU4a5zckSPOpYUQFJFIJ1BYJDkaLQ5O/MfS1f2NItJ/Xx6ecN8Za3lLHcxaIIC7iwKmSmheIIMvWsYmSpsDBa97OC04rNUW0H1HgluHZeFN3\u002B9cFfZO/1ifav9InJnyqS4jnc\u002BCyOEjkuVDlO1jGsNh5Avy3ErB6/T5Mm7mSJ4BtOfMkpPK43cET8MwLv8QDJ1/G3sMvYPeh53DgxCl0rNkPl7\u002BaWYiJ3IBpnfb1\u002BTF0ajJDBKisYmwN\u002B8N3/VPfd9fXhr76U3kw3ZcFzVQxODMHTkmCU/VHWi9AnsbCUpjB4mctNSHl\u002B/kGF5sN6N1yPB9v7Z7wD11i0j/1iYn/0CXGfqyFYAQHTpqyADsjgEAx4DsW0Ll2L6bMXAGLvZAJzzYd2UoE1LIWlbQyaeo8zFmwFvuOvIgdB36EA8dOYenqQ/AU1TMC6EeR9lOT2NQghLo4sVSCXLMYS/9h6x3\u002Bn5q\u002B4X/WxF33ycAFB9pngVDCBFfkGZjW800eGKwBJjCDjVaehKwsBfzFerz1UUd0/kVTdOJX\u002BYmJ/9AnRn\u002BqQdW7SnAB3pWkchVUOgeMtkIYrYXI09ngKazPIECs6L9n1R5MntHB8ioJzqq6ZFqjvE7pUSSWsiFDU8twPPbsW9i294fYsudpzFm6HU5fFRNAKsthdToJTSRkDiNEEgm4PA7cFg7ciiQakoILRGwKTILnaiysZ6egamba5jVO2uMJKIK2wMa2xfy1Grwem9B921faxIS/FyTGf5GPwR\u002BpYPyRiAkvFEmZC5HWWZNmDSBPa4WnsA6aVBoUiuX9Kzt3YfKM5WwffWCzMYlkPqc2kn5sa9sIPP7sL7F515PYvPspLF97GKMnzoPXF2SvFxidyVkckcCbPxGQpchNR/VMCEQSyHP1yFaZWLCiISqlKz7PZxJQyGC0\u002BtlGrEafhUnrXH37eyp7Rn2hwZjPdRjzmRb1p3PBtXPghLz/U\u002BbQGsiNAsyV8rS2ZBpMW4C8f/nK7WiftowRkD5oEKxnuTxV0DjdZewH2z0lmL54JzbtehLrtz\u002BGDdsfxbFHXsPKNTshIS1zHPQGBzuaQpaQsgC7M8g2LmhULkqCpkXM17VW5uskIFVrKeHJIgkpAsgCpFlyCIUCNI414PXwuNCIzzUY80U\u002BRn\u002BWj5FntKh9MYdNg\u002Bh30IyC/J\u002BE15v90Ft8SQtogFqfYQFLV2zDpKlLGQEkNH/SgifAlySA0lmWPIf5Os3wDj/0U2zY/hjWbX0Ua7b8APuPncJDj/80adJCFBhdyfZ1oIc3OygI2ZCrtTDkaS3QFbigN/uShQptjpSkNc8IYNeFzIdp14iC8Z0LvIk3rk8ID/s0LzH683wQRn2WD9OTUoiW8sKLZXnMqiiW6JMEpC0gRYCQ5gFief\u002BylVtx5\u002BQl7GARO2CQ0cZ6Cck5PXVfWTLelDftegIrN5zA6s0Po3PTQ1i75QfYfuAZ7Nr/OMQSKUtRymw1E5wngNrYUiYg7QCRRaRyOhUozOwztM8HPkp35Lt\u002ByBV5TPNL9wRjBz\u002Bqj83\u002Bytk36lMdhp/RYcTnOtjflCJ7hgBcAU9AVraOxROqHZj2My2gqBFqigE8AYr\u002Bxcu34C5GAFVzJHhqq3mgnmcDSm8FVFor\u002B4LGoVMwa/EWrLr/YUZE530PYv32x/HIM6dRWkndYjmrD1RqPRPQQW7AenJqS3nwZPCE2IgEIsMZZLU\u002BI8BRDJXWhJw8LfvOsXOsOPhufWzXparosM90GPaJDoP/psXQT3TIPSyEpJEXnur/bNqKI\u002B2bfUkCfChgBFhYEMywAEX/4o4tuKN9EcxWPytfecFTwg9YAO2xm6yFzMTJFdqnL8WuB17E8rXHcM/GB7Fiw0msWH8cr57\u002BLzz27Ol0oJNmKVjgIgsjAVNCM\u002B07ycyTaY6lugD0Jjc0BXbkakzsu9R6KfIKJHjj7\u002BN715wrjpPGh57RYvDHWrT8VYuWv2kSnIwPfPR98px8pmnKJjT9TRNg8rLtNkqDatYNZhAwsX0RTERAsn3lDxhkjKdTI2pfBWsv2aanXA6zzYWdh17AsrXH0LHuODrWH8eqTQ9h447H8eRzb\u002BGpH7\u002BdHnKKRFJ2bM1g9rCVBKVYQaAaIt/g5Gd9t2SKty6PDf0mPq57yj8sfSM/y8eQMzq0/k2Llo\u002B1aPhIkxBS1ceqRyGkCg2fUfQu5Ju8DLzwKQLIAhqSBEjBCcTy/oVLN2HCpLtZkEgdKEgdLUk1M5kE0DQmW6VnAsmVuahra8eU\u002BZuxZNVhLF97FEtXH0bHhhPYe\u002BRF7Dz8Ak48\u002BhM8\u002BdwvEwoFf\u002BLrX4HGX3M6yxPPvz8h/uMPx8fWv2\u002BJLfnaEV901hkf9XlBggQf9Dctmv\u002BmQeBlBfJWiMDp\u002BL\u002BlQiqV90ngFAEkeIoAGtPfFAQFYkX//CWbMOGuhewoGdN46kxNxtka1tSkt5nKWYCSygYEamibhAnT7sXSNUewZNURLF51mMfqB/DwU2/ixJNvYtzt0zB\u002BwnSMGT8Fo8e1M4waNxn\u002BknrIldloX\u002BTvm7DI2bfnjbb441eG9z56bWjv2suOCKW54Z/r0PKJFk0fa9DwXxp4n1NA1yEGV5YSnnqHfFbpUS2RzwgYICHfyBNBdQFvAZQGk1PheXdvxO13LmATX3aS4pZdGartqaNj\u002BTwZ1Qn0fhpMsh9Aqc9gxeLVR7F0zWHc3XkIC\u002B85hPkrDmDhPQcxt2MfXn79P3DqZx/g1Gvv46VX/8jw/E/ew7RF26A1mPB\u002BZHbXz8Njuw9frwlP/lrfN/7vusTIL7Ro\u002B0zLgl3jx1pUv69C8PUcCO/kwJXwswKxLBdSpZZpV6cnvyeBPWzyyxPg4wkwfo8F0L7AnAUbMG7C/CQByQaG6vmMffVURUepjB8xl8JKTYnRxSIuRXyhWAqNtRT2QBOWrj2JuzsPMwLmdezD3OV7MWfZHsxZtg\u002BzluzGzMW7GOi52qHToVRrMPWC/svRX\u002Brio77Q9VF6a6Mo/wkf6Gr/rEbleyrYH1aAG5VsmSnfZymZ5rNVZqi0diZ4Cjpa0xbguYkAld49EARnz1\u002BHMRPmMtNJC\u002Byj3VR\u002BR4ZSmNPNb0zwaayMT2PJnK3Tu6DIK2C9O1lCljwX7tJhsAaacNfsDZjXsR8LVh7E/I4DTPhZS/Zg5pI9yevdqBs2A9lqDUb/PT865HMNhpzRsiDX/FctGv\u002BkQcNHapgOZIEjrae24wQiSGRq1jIr1Sbm998RnCzA6IXO5GXPpQkoaoQqMw3OnLcWo2\u002BbhXyTG04P7\u002Bf8NlSyjHWVwZYcK/PFzEAOZ3nbXsSGjdkqAyuUiARJlhJiqRzuYCuKqkcjUDUKFU13YPqiXZi2cAemLdyJ6Qt3YMainahumwqFSo3hX2pig/6iQtNf1Wj4iwqNZ1SQtguYuQtoViDmNS8QSdkhR9K8UmVg1SXTcFJoRkDKBejewJNCoAzhKWq6OQ3OmLsaI8bOYOd0MjcTWfHiyhSaFzw1YqaVr9xoPFXI3IF\u002BDBNewu8lynO0LGPQXqEv2IixkzsxjtDeibHt92D0XSsRrLsNspw8SLYIIO7gIFkkgGSxABLqGKmDpBxPO0QiCZsVUIuryOV7CE2BKyn8gPYZDG5ecIOb7QvQazRP1Ord8BQ3ZViARNk/fNQUjBo/E3VNo6HSWZN7cOVwuPnqLU1AsojhBS9Jl7DpMRXFBJMHqnwbi7a0r8cOOiUPO7Gd4uIWWHz1sPrqYfHWweyth85extphjo7H5XN8OUsw8MWNUJzFIJWpklo3QpVvh0bvvNnnmdA8Uvcp4elakVMAh7carkA9sunIPBEgluX2C4RSjJs4H/WDxrMy1Ejb0\u002Bn6vQT2tMZTAlPZmrEmpzWpao46N/pCam/pi2imJ6SU8z15/yYIhWwOmAYRKBQjS8mPxrLzjLzWqcj5HsGp7U2tpGkSnq16FyOM4ArUweysACeQQpA6JkcnJm\u002BftBj1LeMRLGth\u002B\u002B\u002Bk7dQRtpTgKeEz\u002B/Sb12LWsmb27mSO1JHRXE6SlU0ntPl2WEyQZSALUoWKTX\u002BpRaaVtE2zAmWeidd4gZOZ9c1\u002B7uEFZUInwQTPWPVONl6zOEtYBtBb6dBXFn9GSCCUxBQ5ehQYnBgycgqa2yZg8PC7oMm3sxmhjZk6mfeAmac7teSkhvXqGdpPTW9SRFCFSdAZXawWJ/fgYWLIJqjo2sxKVSpmKJaQBWWmsNR1WuvGlOZTyCAhCY3BjVy1Gd7iRviCzXD4qtmcUCTNoSowyv5nQKbUQZSVh6Ejp6CuaSz795Iho6awAEa9OE9AciSVMZqixoiEpVFTSthM0AwuNYoi6JNE8B1aCqlaPbNs9aLAfGspS9cZgS5l9rdqPRMGNyuQikpb2dzSHaiDljZFxQqIsnLI7fiHRJZ7kfyUcmpNw0g0tNyOuubxGDxsEt\u002BPJ/8BSWcgkJ\u002BRD/IrPacl0Ot6F3sfXdMmJAUpbYGTuQC7LyDw9/zqZC0rQ35qtadBZs9WnY1ZBfl/rsbK1tQ1WUwuXbN7siBzMjs4oNY7EawYAm9RI9yBehSY/UzzEoUGQrE8838JBZNk2fnfyPMMUOTo4PbXoLphDJoGT0Rz2x2MjECwEf5gA/zFDfAV0bSoHt7COnjYv6TwoL9zB6rZkNTprYSDFVF8IcVSKiulCRXJtRzWZIaxOnlYkjCz1Mrv/phsPIzWIn68lQQJRK1uylpSDRDduwvrmcn7gk1w\u002BGuZu9CcICs7nxHAccJJGQRwnFCctUSRZ2QRl96YozJAXUDHSQahsn4UqutHoapuJCpqR6C8ZhjKa4ayY\u002BellUNQUtnGTl8Gy1vZMVQ6gcFQ0oxASRMCQR60IUEzeR\u002BRWNzAzNJbWM8GFO5ALdz\u002BWrjSqGH7DU5fNRy\u002BKtg9lbAxwspgdZXD4iCSaHxWkiSshMFk51eLswwmRylytXQIWw\u002BxNBsSuZoRIBBJb/63udRDLFU8TqNpisCSrFyIJdmQynKRp3MgR2NDjsbKQ0tzPTJJGzPDHI0l4zX\u002Bnl7/LshU\u002BTX93hSSn/Gd96Q\u002BO2ny2XSvtiJbnfGdGgt7ngf/GkEizWaRXihVsjkBZRWRWLb\u002BVrlveojEsm1EAk1VpHINq7qobRT8P\u002BL/x2d8B8LveS4NKpfzGEjzFN9Itlvl/f6HULQrS676QqpQsw\u002BgwEG1gpBBkQR/n3qe1oH33Py\u002BzOdvfo8SIunA3/537/vu52Z\u002Bfsb3SLMzPjcb4qxcSBVaSLLyvuAEol23ivk/PgQCIQ\u002BRdJRYmt1PoJOlKWTe04HLNL7nvZl/c\u002Bvf3fQZGe/5V5/BXyu/8zxDVna/QJTVLxCI2O//V4//C8\u002BbYQojWCbxAAAAAElFTkSuQmCC",
+        "category": "Capture \u0026 recording",
+        "shortName": "SCU",
+        "versionLabel": "v297 \u00B7 Full",
+        "summary": "Speedrun Capture Utility brings capture-card preview, replay, recording and export into a dedicated Windows tool.",
+        "features": [
+          "Live capture preview with replay and recording controls.",
+          "Full controls for audio, streaming and export."
+        ],
+        "setup": [
+          "Install FFmpeg from SCU \u2192 Settings \u2192 General \u2192 FFmpeg Tools when you need its media tools."
+        ],
+        "accent": "#B45132",
+        "mark": "SC"
+      }
+    },
+    {
+      "id": "nsmbw-autosplitter",
+      "name": "NSMBW Autosplitter",
+      "description": "Read the timer from your capture feed and send splits automatically.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "1.8.3",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/nsmbw-autosplitter-RetimeAutosplit.exe",
+        "fileName": "RetimeAutosplit.exe",
+        "sha256": "A3A99BC09ECBA698DBA7B840574673FDD777E542EBBB4CFF9518223F47EBAE08",
+        "sizeBytes": 275645,
+        "notes": "Imported the newest numbered small release, v183. Application metadata reports 1.8.3.",
+        "publishedAt": "2026-09-13T18:05:11.5624986+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "NSMBW Autosplitter",
+        "versionLabel": "1.8.3",
+        "summary": "A capture-window OCR utility for the on-screen run timer. Train the timer font, then send detected times to your timing workflow.",
+        "features": [
+          "Crop and train against your capture window.",
+          "Read and type a time manually, or watch continuously.",
+          "Configure LiveSplit start/stop hotkeys and automatic attempt resets."
+        ],
+        "setup": [
+          "Requires the .NET 8 Windows Desktop runtime for the small build.",
+          "Open your capture window, configure the timer crop, train a sample and test OCR.",
+          "Capture settings and timer templates are saved beside the EXE."
+        ],
+        "accent": "#57734F",
+        "mark": "AS"
+      }
+    },
+    {
+      "id": "nsmbw-dolphin",
+      "name": "NSMBW Custom Dolphin",
+      "description": "Dolphin configured for NSMBW practice, retiming and individual levels.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "format": "zip",
+        "entryPoint": "Dolphin.exe",
+        "preservePaths": [
+          "User"
+        ],
+        "version": "0.0.7",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/nsmbw-dolphin-nsmbw-dolphin.zip",
+        "fileName": "nsmbw-dolphin.zip",
+        "sha256": "C43F93026B2BF0A96949D9644A9F9BE353B4E7EABF7B4F26E497EE517264BF82",
+        "sizeBytes": 34958550,
+        "notes": "Imported user v7, the newest user-facing build. Uses Dolphin.exe and its complete release folder. Update comparison uses 0.0.7 while the library displays User build v7.",
+        "publishedAt": "2026-09-13T18:05:11.6786479+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAmCSURBVHhe7ZgJcFT1Hcf/uznIuRBqwh7Jbu4bIhSRCghGsSPWUkFlVGqlyimXeCB3whHIcggUDEQDBE1EovEgIRFQTiHkzkJtR9rp1GpHp5Vaq1Qt5NN5\u002B96Gxz\u002BCi4AzyvvMfGdn9v3/b9/3fX\u002B/33uJEAYGBgYGBgYGBgYGBgYGF41tKT2sBQyzLWGObTGltkXssy/khC2fk/Y8vrAvAMd8TjvmcdI\u002Blw/tc6mPnU2FYxYrHLP4bexMcmKfJEA\u002Brw/nVHq6prLANYXXXY/wXvwkTsZP5F/x4/kwYTwHE8fiTnyYbHnfFaNHIWbrMgbblrLWWsC71gKwLQHbYrAtAttCsOeDLR8U8/b54JgH9rngmAOO2RA7S9NMTU/yWdzjVMU9xmTnDGKV33FOZ6BrGoecUyHhMUhdDpklkLUNsishsxIytkNaCSQvoj1pAkVJD57/Rl4yVjddrYXMtC7jfetSsCkqANdqSN8E174M/XbCgL0wuA5ymyC3GYZ6ILcVhjTBwDrovx\u002Buq4GcCtVQshviZkLc4xA3A\u002BIe5YxzOu\u002B6ptGevBSyqqBXC2S3QWYbpLdCWiuktEBSKyS2QHwLON/hdPwK5sjXfclY3ZithUy0FvIP6zJwuCFtC/SrhdxGuPW4qqHH4ZbjcPMxyD0ONx2DIcdg8DG40QMDPTDAAz/zQH8PXO\u002BBvh74qQd6t0HPvZBWBoluSCiA1B2q2ZRWSNaMJihGWyCuGWKbwd7E59YmNsc0Mjq6iUT52i8Z63JirIXsUYwnrIe\u002B1XBzq2rUa1Y2ekwzegxu0Bm9rk0128cD17ZBThv0aoOsVshsVY2mSkZdeqPNYG2GHk0Q3QjXNEL3Bqq6NWKTr/myYXUTby3khHMtXLcLcj2qUUWK0UGKWc2okqpitJ9iVpdqTiv0atXKVzPaUb46o0qqsS2qUVsT9GiGmCbV6E8aIaoRujaApQEi6iFyH38LrSdQvubLhtVNN8V8\u002BoswsPXby9eXaraWaIY\u002B1RZdnzarqTo0o9Ym1aiSaofRRtVoZAOE10PYUQg5Cl0U1UFgHcSs5GTSg/SRr/uyYXNTnl19NtW\u002BbdBHZ7SnYlaXqmJU6VV9qt9Yvk1njXbTzEbWq6kqZkM1s8F1EKSYPQIBh8F8GEyKDoE4BJYSSPoNXyc/wKzk0Zjl678krG4Gp1RqfaorXyVVb/nqUvWWr86oTTX6l\u002BgmNl7TyNjujQyOaiSzawNWSwNREfW4wo\u002BSGFbP9SF1DA\u002BuY3rwEYqDjlAXeJivOoy\u002BoxoVByUdOCvLs5A4BlLu5\u002B2U\u002B4iWfXxnXC9Q5zOqJCoPJW/5aonGKANJTbU9qpHtXRu4Xj6f3xwiVBzkJnGAleIAfxb74Rzt07RX09sQ9BrETYOUe3k/dRR95VNeNNY1uJyHzk1VKV99n3ZXylcbSFr5fhxWT67\u002BPI5ZRMU\u002BhTP2SRLjniAm7nFC9cf9Yh8DxF42i718pZjt0B6ddoPpTYjJh9S7OZV2NyPk01wU1gpWeB8zTapR3/RVBpK3T49CaP3ZoaT0amg1I\u002BxzGOeYQ5ljFm2O2Xxpn6e96T0BscoLzmPgnMEnzkc57JzOGuc07nRNwSL//jeyh1ixh7ViN6fELhBvQsdnraYa6LraexNOp41gnHwKv4mq4fcRvunrM1p3digF6IfSO\u002BpQCtityqyko/Snvlf3g3kXBL0BYWXQbT30yAPXVHBN5r\u002BuR6iMn8TP4ydikq\u002BlEzXYRA1FooYzYid4VQ2iStMOCN/gvQnt6cOZKm/3i9C3\u002BE/Qkc7T1zuQ5KGkG0id\u002BlTqVfGWTnvAvBMiSsA6H\u002BInQsIEjieM467EcX7ciB30FztoE2\u002BAV6\u002BBeF37fBXCnoHUEbRn/IKH5a0XJKSaPmbFjGz2Qkb1JmWzuj71SilbuXRrIXgbROdDwlhIeJi3Eh/y45X2NQLFq8wXlZwWr0CHXgZRAeFrIP2XnM64jdvlrd9IwB4cAbv5TC7fcxL1GdYPJL1Rn1mfUUWKSb1hfenqy7cKQkohdgYkjeFU0oN\u002BlvB2BontfCC2g3hJ04uqItyQMYxPM28lU952LvuJNu/mn51SlRM9X6qKQWkgdTLqM7tDK1tFStn6SlcrX1MldFuuPt\u002BTH2BT8mi6yJfbiXKiRTkHRDmIMhAvaHoeus\u002BGzKF4sm6\u002BwFPIvIuD5zUqp/omH4haakUtz4paFogaxoid3Cl2couoZpCoYmOHUZ98ZnVGvarU5CtdrXyVNLsUg2scJN/P/uT7CJOvuRPP00VspVxsBVEKYoumzRD7EGTlskbe0oFpF5926lNf\u002BdZyStTykqjhflGDXd7bidcJNr3K8Q6jPpM\u002Bo6rZVaKCYaICt9jOCW/ZbtNJKeFyMCstMdn7krM3dZQfN2EzJrEJtygBr55TZS6ClOGcyRrCDfIWL\u002BYq\u002Bga8wZ\u002B8jxe1hP8tanhF7OQ\u002BUU2EvP5bqSRLVPBlR6Jaqro\u002B7X3O\u002BnJyRBmrRBkf\u002B0rXq61g2gz2KZB6D5Vpd/nxhFAoZq7YCF5tUD9DCiB7CJ7sgRf6j1E1IaKKSPnr78RL3Cu20d6RqJaq1qcT5OVeSgkWW3hIbOE9pXS92gSm58AxEVJHMk/ecl6KmC2KQDyjSXn/GA89b2CsvPTKUcY0UUZ7R6pKf6o6IUovMJRKMIsSRpqKeVc8C6IYTEXgGsOZtF/RT15\u002BXtaxXPwOfDI/DelD\u002BahXf0LkpVeOrYwWpXzpTVMbSkqqooRSeWknNmIWGxhrWs/nSpqBT0PyKP6Yfoef/whZi0ms4QWxBsRqVVHToFc/JstLryyb6ClKqPcNJV\u002BqotjPkl5Pt6AVbFNSDFsIGXcwXl5yPkyrCDGtpMm0EhSZl0PaLfw9p4\u002BfN/GyUYxJbGSk2MA\u002BsYEz3uGk9qhbFPk33IKXcVugm89jJvFxxm3\u002B7VEwu4k3u/nE7IaAQug\u002BCXr15h553ffHerqL9dwu1jFVrGOGWOfnX4VCiKACukY\u002BxdH4UQySj12IwGUMD1wKioILIGMQB\u002BQ1PyhiJlz8IAtewqYuS6DLYrD/mjM52cTIa37UhCzGErKYv4YugsjZtOf0ZIq85kdP\u002BEKGhS\u002BE8EWQPJR6\u002BfhVQUQ\u002BFZH54HiA//VOJUg\u002B/qPHkofDkscXUU/xde9kBsjHrwoseeRZ8iDtRpbJx64KLHmEWxbwkWskR\u002BRjVw2WPMZYx/IH\u002BfurBkse5ujJP/AXoksl7h7ulr8zMDAwMDAwMDAwMDAwuBr4P3Ki3/lZSwEEAAAAAElFTkSuQmCC",
+        "category": "Practice \u0026 emulation",
+        "shortName": "NSMBW Dolphin",
+        "versionLabel": "User build v7",
+        "summary": "The user distribution of your custom Dolphin fork. Its built-in NSMBW selector opens when Dolphin starts without a game.",
+        "features": [
+          "Select Practice, Retime or IL mode inside Dolphin.",
+          "Bundled mode-specific Riivolution patch data.",
+          "Practice allows savestates; Retime and IL enforce their mode restrictions."
+        ],
+        "setup": [
+          "Select your own base NSMBW disc image in Dolphin.",
+          "The launcher keeps Qt, Languages, Sys and patch files together.",
+          "Windows 10 version 1903 or newer; Microsoft Visual C\u002B\u002B x64 runtime may be required.",
+          "The user build is selected for distribution; master and benchmark builds are excluded."
+        ],
+        "accent": "#496F80",
+        "mark": "DL"
+      }
+    },
+    {
+      "id": "nsmbw-retimer",
+      "name": "NSMBW Retimer",
+      "description": "Review run footage, mark loads and compare against a TAS reference.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "1.0.0",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/nsmbw-retimer-NSMBW.Retimer.exe",
+        "fileName": "NSMBW Retimer.exe",
+        "sha256": "1F610D98647FF70677B169FBA46585DDBFB346C7F7760CC5BFFB50971B697E2C",
+        "sizeBytes": 378205200,
+        "notes": "Normalized release 1.0, including the TAS overlay offset fix. Uses the exact 1.0/standalone folder requested.",
+        "publishedAt": "2026-09-13T18:05:14.0637732+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 analysis",
+        "shortName": "NSMBW Retimer",
+        "versionLabel": "1.0",
+        "summary": "Your dedicated retiming desktop app, using the normalized 1.0 release you specified.",
+        "features": [
+          "Open video and mark load start/end points with frame controls.",
+          "Review run summaries and save retime files.",
+          "Load TAS video or .lds references and work with the TAS overlay."
+        ],
+        "setup": [
+          "This uses the self-contained standalone EXE from artifacts/1.0.",
+          "Open a video or an existing retime file from the File menu.",
+          "Older Fixed, Updated and 1.0.1 artifacts are intentionally not selected."
+        ],
+        "accent": "#9D7043",
+        "mark": "RT"
+      }
+    },
+    {
+      "id": "gcord",
+      "name": "GCord",
+      "description": "Voice rooms and shared game feeds for speedrunning crews.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.1.13",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/gcord-GCord.exe",
+        "fileName": "GCord.exe",
+        "sha256": "B5ADEB17EEAE1045E620A2E381B67BF4C85B5EB654C2A1FE7971163276E0EC37",
+        "sizeBytes": 1264128,
+        "notes": "Current GCord.exe reports 0.1.13. Includes the current companion MSI for invite-link registration; older versioned installers are excluded.",
+        "publishedAt": "2026-09-13T18:05:14.2013368+00:00",
+        "companionInstaller": {
+          "fileName": "GCord-Setup.msi",
+          "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/gcord-GCord-Setup.msi",
+          "sha256": "485E6A88B08B5D7E0EE92273E273F314933F767D92FF1200F8A69C5E24508F3D",
+          "sizeBytes": 720896
+        }
+      },
+      "details": {
+        "iconPng": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFfSURBVHhe7ZvBSsNAEIYDSRDBQx9Lbz6Cb2IPhaQnH03fJLknEpliQvl32xXsCu58ge/yZ4btfE1DL1NVZ9fubdk1x8/Xpp/e635eSsJmstlsxvOZt6vt5pe6nwdtLJDBZo0Nr4VFs0mwR8LJN68Mp59D0037yE0X2OxViS\u002B8n2KzVxp6AwEaeAMBGngDARp4408FtI\u002BH5e7\u002B4SpWo305QYAGOUEAAhAQDKwgAAEICPpyggANcvJbAe3TIYn2pPhXArQ2hvakQIAGOUEAAhAQfGAFAQhAQNC3orUxtCcFAjRIoX89Y2jP1luCAD0whvasIAABCAhqFQQgAAFB3y3OvgQCNEihB8bQnhUEIAABQa2CAAQgIOi7xdmXQIAG3kCABt5AgAbeQIAG3rClqQ8NvWCzszb3vTg56k0HjNsescfV2fo4P8f2hz08CWMw/Hqd1ue7aV/ii9Fmstl0ff4LGSD9Ka2u6KMAAAAASUVORK5CYII=",
+        "category": "Voice \u0026 collaboration",
+        "shortName": "GCord",
+        "versionLabel": "0.1.13",
+        "summary": "A native Windows launcher for GCord\u2019s voice and virtual-camera rooms. This release connects to the hosted control service and LiveKit media service.",
+        "features": [
+          "Create a private room and share an invite.",
+          "Publish your microphone, camera and a separate game feed.",
+          "Use OBS Virtual Camera as the bridge for an SCU capture feed."
+        ],
+        "setup": [
+          "Requires an internet connection and a supported Chromium browser.",
+          "Launch opens the portable EXE. The optional installer registers gcord:// invite links.",
+          "Server, diagnostics and mobile packages are not installed with the desktop client."
+        ],
+        "accent": "#766184",
+        "mark": "GC"
+      }
+    },
+    {
+      "id": "sm64-practice",
+      "name": "SM64 Practice",
+      "description": "Build practice goals and track star PBs in a desktop overlay.",
+      "kind": "application",
+      "groupId": null,
+      "release": {
+        "format": "zip",
+        "entryPoint": "SM64PracticeOverlay.exe",
+        "preservePaths": [
+          "presets.json"
+        ],
+        "version": "1.0.0",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/sm64-practice-sm64-practice.zip",
+        "fileName": "sm64-practice.zip",
+        "sha256": "A2AA3AD7FBDD31B7634C705309CD582A1D1330EB5D8215ACE7E17A21FA1DEA3E",
+        "sizeBytes": 67639835,
+        "notes": "Imported the self-contained sendable build. Prepared a new ZIP containing both the EXE and presets.json because the existing Windows x64 ZIP contains only the EXE.",
+        "publishedAt": "2026-09-13T18:05:14.4145176+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Practice \u0026 tracking",
+        "shortName": "SM64 Practice",
+        "versionLabel": "1.0.0",
+        "summary": "The self-contained SM64 Practice Overlay build, packaged with the presets from your sendable release folder.",
+        "features": [
+          "Stage-wide overhaul goals and single-star grinds.",
+          "Separate always-on-top overlay for your practice text.",
+          "Star PB tracking, strategy selection and xcam sheet imports."
+        ],
+        "setup": [
+          "Includes the .NET runtime; the small Discord build is not selected.",
+          "Your presets.json and untracked user files are kept during launcher updates.",
+          "Use the app\u2019s preset editor to set up your own practice goals."
+        ],
+        "accent": "#AE8040",
+        "mark": "64"
+      }
+    },
+    {
+      "id": "livesplit-bettersubsplits",
+      "name": "Better Subsplits",
+      "description": "A customized subsplits component for your LiveSplit layout.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.206",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/livesplit-bettersubsplits-LiveSplit.BetterSubsplits.dll",
+        "fileName": "LiveSplit.BetterSubsplits.dll",
+        "sha256": "8E5A78B8F3537A73978A4777B04E02A5718CFB0FC9864FBCE62D51BE495FE8B8",
+        "sizeBytes": 409600,
+        "notes": "Canonical release: v206-render-pipeline-fix. Imported checksum matches current-plugins.json.",
+        "publishedAt": "2026-09-13T18:05:14.5970548+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "Better Subsplits",
+        "versionLabel": "v206",
+        "summary": "Displays your split list using the Better Subsplits component.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "BS"
+      }
+    },
+    {
+      "id": "livesplit-detailedtimer",
+      "name": "Detailed Timer",
+      "description": "Run and segment timers in one LiveSplit component.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.2",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/livesplit-detailedtimer-LiveSplit.DetailedTimer.dll",
+        "fileName": "LiveSplit.DetailedTimer.dll",
+        "sha256": "13E9C0BCE5D806AC0BF885333E18C1C2806B2562646D90C2D6068922E8CB80CE",
+        "sizeBytes": 80384,
+        "notes": "Canonical release: v002-single-scrollbar-no-bottom-cutoff. Imported checksum matches current-plugins.json.",
+        "publishedAt": "2026-09-13T18:05:14.7118727+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "Detailed Timer",
+        "versionLabel": "v2",
+        "summary": "Custom Detailed Timer release with settings scrolling and clipping fixes.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "DT"
+      }
+    },
+    {
+      "id": "livesplit-manualgametime",
+      "name": "Manual Game Time",
+      "description": "Enter segment times manually as LiveSplit game time.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.1",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/livesplit-manualgametime-LiveSplit.ManualGameTime.dll",
+        "fileName": "LiveSplit.ManualGameTime.dll",
+        "sha256": "D02F8B611934E2BC66CA85CD5B066B8B85507D4485AD894FEDC0099795DC7454",
+        "sizeBytes": 396288,
+        "notes": "Canonical release: v001-radio-setting-persistence. Imported checksum matches current-plugins.json.",
+        "publishedAt": "2026-09-13T18:05:14.7727184+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "Manual Game Time",
+        "versionLabel": "v1",
+        "summary": "Pairs with workflows that type a detected or retimed segment time.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "GT"
+      }
+    },
+    {
+      "id": "livesplit-previoussegment",
+      "name": "Previous Segment",
+      "description": "See time saved or lost on the previous segment.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.1",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/livesplit-previoussegment-LiveSplit.PreviousSegment.dll",
+        "fileName": "LiveSplit.PreviousSegment.dll",
+        "sha256": "E421553466B55772D32C87D6DD213F13642ACA6222B26CBF63CEEA49DA8958AF",
+        "sizeBytes": 39936,
+        "notes": "Canonical release: v001-v000-stable-layer-gold-delta. Imported checksum matches current-plugins.json.",
+        "publishedAt": "2026-09-13T18:05:14.8911567+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "Previous Segment",
+        "versionLabel": "v1",
+        "summary": "Compares the previous segment with your selected comparison.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "PS"
+      }
+    },
+    {
+      "id": "livesplit-randomlayoutgenerator",
+      "name": "Random Layout Generator",
+      "description": "Generate a new visual theme for your LiveSplit layout.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.7",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/livesplit-randomlayoutgenerator-LiveSplit.RandomLayoutGenerator.dll",
+        "fileName": "LiveSplit.RandomLayoutGenerator.dll",
+        "sha256": "F16817005E0FBE4E8179757B12C155BE0F75EFC2C81AB74FDCD13409AC7A01BB",
+        "sizeBytes": 50688,
+        "notes": "Canonical release: v007-consistent-comparisons-unclipped-options. Imported checksum matches current-plugins.json.",
+        "publishedAt": "2026-09-13T18:05:15.018068+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Layout \u0026 appearance",
+        "shortName": "Random Layout Generator",
+        "versionLabel": "v7",
+        "summary": "Changes visual styling without changing splits, comparisons or timing behavior.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "RL"
+      }
+    },
+    {
+      "id": "livesplit-segmentedbpt",
+      "name": "Segmented BPT",
+      "description": "A custom segmented best-possible-time component.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.5",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/livesplit-segmentedbpt-LiveSplit.SegmentedBPT.dll",
+        "fileName": "LiveSplit.SegmentedBPT.dll",
+        "sha256": "AA55C7B5B1020A245C1E52AB2EB43EF7FEFCF30AA96133CCA2881E1E567A5FA9",
+        "sizeBytes": 74240,
+        "notes": "Canonical release: v005-fix-popout-open-and-clipping. Imported checksum matches current-plugins.json.",
+        "publishedAt": "2026-09-13T18:05:15.2054407+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "Segmented BPT",
+        "versionLabel": "v5",
+        "summary": "Includes the pop-out and clipping fixes from its latest release.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "BP"
+      }
+    },
+    {
+      "id": "livesplit-sessionattemptsubsplits",
+      "name": "Session Attempt Subsplits",
+      "description": "See how many session attempts reached each split.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.2",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/livesplit-sessionattemptsubsplits-LiveSplit.SessionAttemptSubsplits.dll",
+        "fileName": "LiveSplit.SessionAttemptSubsplits.dll",
+        "sha256": "54CE6D4272CD4CAA6E1AB643E34834746A3F039A40BCB3C208E9E76BFFFDD15B",
+        "sizeBytes": 10752,
+        "notes": "Canonical release: v002-subsplits-based. Imported checksum matches current-plugins.json.",
+        "publishedAt": "2026-09-13T18:05:15.2488864+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "Session Attempt Subsplits",
+        "versionLabel": "v2",
+        "summary": "Displays LiveSplit Subsplits with a per-split session attempt count.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "SA"
+      }
+    },
+    {
+      "id": "livesplit-theorycomparisongenerator",
+      "name": "Theory Comparison Generator",
+      "description": "Build theory comparisons for your split file.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.1",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/livesplit-theorycomparisongenerator-LiveSplit.TheoryComparisonGenerator.dll",
+        "fileName": "LiveSplit.TheoryComparisonGenerator.dll",
+        "sha256": "0DA75BFD8D577416D61AF6DF9F1C845159E1FFF029BC3299FECE7FFBF8758D01",
+        "sizeBytes": 50688,
+        "notes": "Canonical release: v001-even-allocation-button. Imported checksum matches current-plugins.json.",
+        "publishedAt": "2026-09-13T18:05:15.3704267+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Timing \u0026 splits",
+        "shortName": "Theory Comparison Generator",
+        "versionLabel": "v1",
+        "summary": "Latest release includes the even-allocation button.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "TC"
+      }
+    },
+    {
+      "id": "livesplit-weegeeseparator",
+      "name": "Weegee Separator",
+      "description": "An animated separator for your LiveSplit layout.",
+      "kind": "liveSplitPlugin",
+      "groupId": "livesplit",
+      "release": {
+        "format": "singleFile",
+        "entryPoint": "",
+        "preservePaths": [],
+        "version": "0.0.16",
+        "url": "https://github.com/rynnoo4903/raip-releases/releases/download/untagged-b7bfe2eb70e3fdc6b61b/livesplit-weegeeseparator-LiveSplit.WeegeeSeparator.dll",
+        "fileName": "LiveSplit.WeegeeSeparator.dll",
+        "sha256": "7A6C3FBC0C6BAAFDF01F80F2D875681D7E85E4D0C54D10AE959E1B098B83F2A0",
+        "sizeBytes": 25088,
+        "notes": "Canonical release: v016-v015-cross-component-phase-sync. Imported checksum matches current-plugins.json.",
+        "publishedAt": "2026-09-13T18:05:15.4476719+00:00",
+        "companionInstaller": null
+      },
+      "details": {
+        "iconPng": "",
+        "category": "Layout \u0026 appearance",
+        "shortName": "Weegee Separator",
+        "versionLabel": "v16",
+        "summary": "Gradient, wave and outline options, with cross-component phase synchronization.",
+        "features": [],
+        "setup": [
+          "Close LiveSplit before installing or updating this component.",
+          "Choose the folder containing LiveSplit.exe in Settings. RAIP installs only this DLL into Components.",
+          "Add the component from the LiveSplit Edit Layout menu. Existing untracked DLLs are preserved; back them up before replacing them."
+        ],
+        "accent": "#66725B",
+        "mark": "WS"
+      }
+    }
+  ]
+}
