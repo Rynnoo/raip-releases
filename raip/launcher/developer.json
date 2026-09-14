@@ -1,8 +1,8 @@
 {
-  "sizeBytes": 71686756,
+  "sha256": "033d4c1bfa0aa5d5df2549baf982a8a25ce34017413052036b9b2f5f2a938f42",
+  "version": "1.0.1",
+  "url": "https://github.com/Rynnoo/raip-releases/releases/download/launcher-v1.0.1/RAIP-Developer.exe",
   "schemaVersion": 1,
-  "url": "https://github.com/rynnoo4903/raip-releases/releases/download/launcher-v1.0.0/RAIP-Developer.exe",
-  "version": "1.0.0",
-  "sha256": "f9aff4de82faf0c4a284c0b509ab96bf2e1fd880127d4c6eac313a53347f4115",
+  "sizeBytes": 71690065,
   "edition": "developer"
 }
