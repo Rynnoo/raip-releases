@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "url": "https://github.com/Rynnoo/raip-releases/releases/download/launcher-v1.0.3/RAIP-Public.exe",
-  "sizeBytes": 71798692,
-  "version": "1.0.3",
-  "sha256": "11fd2beebe3f58507ebf7c4cce8823df1b7d750a9e27fb4b7c35cfc17a266a56",
-  "edition": "public"
+  "sha256": "2e97d2a69567c5a2d33623371b04b985e5cafbedf479894fb1907c3112228175",
+  "version": "1.0.4",
+  "edition": "public",
+  "sizeBytes": 71915390,
+  "url": "https://github.com/Rynnoo/raip-releases/releases/download/launcher-v1.0.4/RAIP-Public.exe"
 }
