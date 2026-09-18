@@ -1,8 +1,8 @@
 {
+  "sha256": "fb5357e0d0889be5e397522d06a9ad5ce4ae203cfff17fc2618b08a35c80c6ac",
   "schemaVersion": 1,
-  "sizeBytes": 73430937,
-  "sha256": "42e4c0bbd9bd92ed6d97598fa455cd683f49c703c11cd0a50355f24f2a1cd365",
-  "url": "https://github.com/Rynnoo/rpm-releases/releases/download/launcher-v1.0.6/RPM-Developer.exe",
-  "version": "1.0.6",
-  "edition": "developer"
+  "url": "https://github.com/Rynnoo/rpm-releases/releases/download/launcher-v1.0.7/RPM-Developer.exe",
+  "edition": "developer",
+  "version": "1.0.7",
+  "sizeBytes": 73443199
 }
