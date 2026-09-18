@@ -1,0 +1,41 @@
+name: Report a bug
+description: Tell us about a problem with an RPM program.
+labels: ["rpm-feedback", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Reports are public. Please leave out passwords, tokens, and personal information."
+  - type: input
+    id: program
+    attributes:
+      label: Program
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Program version
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open the program\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: textarea
+    id: details
+    attributes:
+      label: Screenshots or extra details
+      description: "You can attach screenshots here. Review them before sharing."
