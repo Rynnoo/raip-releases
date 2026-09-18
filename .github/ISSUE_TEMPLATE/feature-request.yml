@@ -1,0 +1,33 @@
+name: Request a feature
+description: Suggest an improvement to an RPM program.
+labels: ["rpm-feedback", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "Requests are public. Please leave out personal information."
+  - type: input
+    id: program
+    attributes:
+      label: Program
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Program version
+  - type: textarea
+    id: feature
+    attributes:
+      label: What would you like added or changed?
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: How would this help you?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Examples or extra details
